@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f5f5f5;
+}
+
+.product-card, .cart {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#size-select, input, textarea, button {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item select, .cart-item input[type="number"] {
+  margin: 0 10px;
+}
+
+.order-form input, .order-form textarea {
+  margin-top: 15px;
+}
+
+#submit-order {
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#submit-order:hover {
+  background-color: #218838;
+}

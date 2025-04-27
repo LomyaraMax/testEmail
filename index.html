@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Корзина товаров</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="product-card">
+    <h2>Футболка "Лучший стиль"</h2>
+    <p>Цена: 500 грн</p>
+    
+    <label for="size-select">Выберите размер:</label>
+    <select id="size-select">
+      <option value="XS">XS</option>
+      <option value="S">S</option>
+      <option value="M">M</option>
+      <option value="L">L</option>
+      <option value="XL">XL</option>
+    </select>
+
+    <button id="add-to-cart">Добавить в корзину</button>
+  </div>
+
+  <div class="cart">
+    <h2>Корзина</h2>
+    <div id="cart-items"></div>
+
+    <div class="order-form">
+      <input type="tel" id="phone" placeholder="Ваш номер телефона" required>
+      <textarea id="comment" placeholder="Комментарий к заказу"></textarea>
+      <button id="submit-order">Отправить заказ</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
